@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from . import country
-from . import project
+from . import enumerator
 from . import fuel
+from . import photos
+from . import project
 from . import project_data
 from . import project_photos
-from . import enumerator
 from . import surveyor
 from . import village
-from . import photos

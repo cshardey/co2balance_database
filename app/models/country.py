@@ -11,5 +11,3 @@ class Country(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(50), unique=True, index=True)
     region = Column(String(50), unique=True, index=True)
-
-

@@ -1,4 +1,7 @@
-from sqlalchemy import Column, ForeignKey
+from __future__ import annotations
+
+from sqlalchemy import Column
+from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
 from sqlalchemy import String
 
