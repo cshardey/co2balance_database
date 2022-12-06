@@ -28,3 +28,5 @@ class ProjectData(Base):
     fuel_type_id = Column(Integer, ForeignKey('fuel_type.id'))
     total_people = Column(Integer, nullable=False)
     merge_weight = Column(Integer, nullable=False)
+    gps_longitude = Column(String(256), nullable=False)
+    gps_latitude = Column(String(256), nullable=False)

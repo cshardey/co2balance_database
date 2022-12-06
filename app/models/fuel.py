@@ -10,4 +10,3 @@ from app.db.base_class import Base
 class FuelType(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(50), unique=True, index=True)
-    unit = Column(String(50), unique=True, index=True)

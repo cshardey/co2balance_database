@@ -12,3 +12,4 @@ class Village(Base):
     name = Column(String(256), nullable=False)
     district = Column(String(256), nullable=False)
     sector = Column(String(256), nullable=False)
+    region = Column(String(50), unique=True, index=True)
