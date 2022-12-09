@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "description": "Cooked Stove Project",
+    "company": "John Doe Company",
+    "start_date": "2018-01-01",
+    "end_date": "2018-03-31",
+    "type": "project",
+    "country": "Kenya"
+  }
+]

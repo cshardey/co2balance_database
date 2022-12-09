@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sqlalchemy import Column
+from sqlalchemy import Column, ForeignKey
 from sqlalchemy import Integer
 from sqlalchemy import String
 
@@ -12,4 +12,4 @@ class Village(Base):
     name = Column(String(256), nullable=False)
     district = Column(String(256), nullable=False)
     sector = Column(String(256), nullable=False)
-    region = Column(String(50), unique=True, index=True)
+    region_id = Column(Integer, ForeignKey('region.id'))

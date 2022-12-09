@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sqlalchemy import Column
+from sqlalchemy import Column, Float
 from sqlalchemy import DateTime
 from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
@@ -27,6 +27,14 @@ class ProjectData(Base):
     village_id = Column(Integer, ForeignKey('village.id'))
     fuel_type_id = Column(Integer, ForeignKey('fuel_type.id'))
     total_people = Column(Integer, nullable=False)
-    merge_weight = Column(Integer, nullable=False)
+    weight_of_wood_pile = Column(Float, nullable=False)
     gps_longitude = Column(String(256), nullable=False)
     gps_latitude = Column(String(256), nullable=False)
+    gps_altitude = Column(String(256), nullable=False)
+    head_of_household = Column(String(256), nullable=False)
+    improved_wood_stove = Column(String(256), nullable=False)
+    improved_charcoal_stove = Column(String(256), nullable=False)
+    number_of_stoves = Column(Integer, nullable=False)
+    stove_type = Column(String(256), nullable=False)
+    confirm_all_fuels = Column(String(256), nullable=False)
+    consent_to_survey = Column(String(256), nullable=False)
