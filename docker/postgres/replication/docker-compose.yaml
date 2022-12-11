@@ -1,0 +1,39 @@
+version: '3.5'
+services:
+  master:
+    image: postgres:latest
+    ports:
+      - '6432:5432'
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: /data/postgres
+    volumes:
+       - postgres_master:/data/postgres
+    networks:
+      - postgres
+    restart: unless-stopped
+  slave:
+    image: postgres:latest
+    links:
+    - master
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: /data/postgres
+    volumes:
+       - postgres_slave:/data/postgres
+    ports:
+      - "7432:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+    postgres_master:
+    postgres_slave:
