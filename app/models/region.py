@@ -1,6 +1,9 @@
+from __future__ import annotations
+
 from sqlalchemy import Column
-from sqlalchemy import String
 from sqlalchemy import Integer
+from sqlalchemy import String
+
 from app.db.base_class import Base
 
 

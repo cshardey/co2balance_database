@@ -1,79 +1,83 @@
+from __future__ import annotations
+
 import logging
 
-import names
 import pandas as pd
 
 from app.db.session import engine
-from app.populate.cook_stove import clean_project_file
-
-logging.basicConfig(format="%(asctime)s - %(message)s", datefmt="%d-%b-%y %H:%M:%S")
+logging.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 
 
 class InsertProjectData:
     def __init__(self, main_data):
         self.main_data = main_data
 
-    def insert_project_data(self):
+    def insert_project_datas(self):
         """
         Insert Project Data
         :return:district.1
         """
         # Get Enumerator  ID from the database
-        self.main_data["enumerator_id"] = self.main_data["enumerator"].apply(
+        self.main_data['enumerator_id'] = self.main_data['enumerator'].apply(
             lambda x: engine.execute(
-                f"SELECT id FROM enumerator WHERE name = '{x}'"
-            ).fetchone()[0]
+                f"SELECT id FROM enumerator WHERE name = '{x}'",
+            ).fetchone()[0],
         )
 
         # Drop the Enumerator column
-        self.main_data = self.main_data.drop(columns=["enumerator"])
+        self.main_data = self.main_data.drop(columns=['enumerator'])
 
         # Replace nan village vlaues with 'Unknown'
-        self.main_data["village"] = self.main_data["village"].fillna("Unknown")
+        self.main_data['village'] = self.main_data['village'].fillna('Unknown')
         # Get village_id from the database
-        self.main_data["village_id"] = self.main_data["village"].apply(
+        self.main_data['village_id'] = self.main_data['village'].apply(
             lambda x: engine.execute(
-                f"SELECT id FROM village WHERE name = '{x}'"
-            ).fetchone()[0]
+                f"SELECT id FROM village WHERE name = '{x}'",
+            ).fetchone()[0],
         )
         # Drop the Village column
-        self.main_data = self.main_data.drop(columns=["village"])
+        self.main_data = self.main_data.drop(columns=['village'])
         # Get surveyor_id from the database
-        self.main_data["surveyor_id"] = self.main_data["surveyor"].apply(
+        self.main_data['surveyor_id'] = self.main_data['surveyor'].apply(
             lambda x: engine.execute(
-                f"SELECT id FROM surveyor WHERE name = '{x}'"
-            ).fetchone()[0]
+                f"SELECT id FROM surveyor WHERE name = '{x}'",
+            ).fetchone()[0],
         )
         # Drop the Surveyor column
-        self.main_data = self.main_data.drop(columns=["surveyor"])
+        self.main_data = self.main_data.drop(columns=['surveyor'])
 
         # Get Fuel Type ID from the database
-        self.main_data["fuel_type_id"] = self.main_data["fuel_type"].apply(
+        self.main_data['fuel_type_id'] = self.main_data['fuel_type'].apply(
             lambda x: engine.execute(
-                f"SELECT id FROM fuel_type WHERE name = '{x}'"
-            ).fetchone()[0]
+                f"SELECT id FROM fuel_type WHERE name = '{x}'",
+            ).fetchone()[0],
         )
         # Drop the Fuel Type column
-        self.main_data = self.main_data.drop(columns=["fuel_type"])
+        self.main_data = self.main_data.drop(columns=['fuel_type'])
 
-        self.main_data["project_id"] = 1
+        self.main_data['project_id'] = 1
 
         # Drop columns that are not needed
         self.main_data = self.main_data.drop(
-            columns=["surveyor_phone_number", "region", "district", "district.1", "sector", "cell", "house_number.1",
-                     "photo_of_traditional_3_stone_fire", "photo_of_ethanol_alcohol_stove"])
+            columns=[
+                'surveyor_phone_number', 'region', 'district', 'district.1', 'sector', 'cell', 'house_number.1',
+                'photo_of_traditional_3_stone_fire', 'photo_of_ethanol_alcohol_stove',
+            ],
+        )
 
         # Insert data into the database using pandas
         self.main_data.to_sql(
-            "project_datas",
+            'project_data',
             con=engine,
-            if_exists="append",
+            if_exists='append',
             index=False,
             chunksize=10000,
         )
-        logging.info("Project Data inserted into database")
+        logging.info('Project Data inserted into database')
 
 
-cook_stove_data = pd.read_excel("../../../app/data/project_data.xlsx", sheet_name="Sheet1")
-insert_project_data = InsertProjectData(cook_stove_data)
-insert_project_data.insert_project_data()
+cook_stove_data = pd.read_excel(
+    '../../../app/data/project_data.xlsx', sheet_name='Sheet1',
+)
+insert_data = InsertProjectData(cook_stove_data)
+insert_data.insert_project_datas()
