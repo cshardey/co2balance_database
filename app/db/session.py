@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+from typing import Generator
 
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
@@ -22,8 +23,16 @@ load_dotenv()
 try:
     engine = create_engine(os.getenv('DATABASE_URL'))
     Base.metadata.create_all(bind=engine)
-    Session = sessionmaker(bind=engine)
+    Session = sessionmaker(bind=engine, autoflush=False, autocommit=False)
     session = Session()
     print('Database created and tables initialized')
 except Exception as e:
     print('Error: Database Initialization failed see error --> ', e)
+
+
+def get_db() -> Generator:
+    db = session
+    try:
+        yield db
+    finally:
+        db.close()

@@ -7,6 +7,7 @@ from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
 from sqlalchemy import String
 from sqlalchemy import Text
+from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 
 from app.db.base_class import Base
@@ -39,3 +40,15 @@ class ProjectData(Base):
     stove_type = Column(String(256), nullable=False)
     confirm_all_fuels = Column(String(256), nullable=False)
     consent_to_survey = Column(String(256), nullable=False)
+    country = relationship(
+        'Country', primaryjoin='ProjectData.country_id == Country.id')
+    enumerator = relationship(
+        'Enumerator', primaryjoin='ProjectData.enumerator_id == Enumerator.id')
+    fuel_type = relationship(
+        'FuelType', primaryjoin='ProjectData.fuel_type_id == FuelType.id')
+    project = relationship(
+        'Project', primaryjoin='ProjectData.project_id == Project.id')
+    surveyor = relationship(
+        'Surveyor', primaryjoin='Surveyor.id==ProjectData.surveyor_id')
+    village = relationship(
+        'Village', primaryjoin='ProjectData.village_id == Village.id')
