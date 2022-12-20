@@ -1,7 +1,11 @@
 from __future__ import annotations
 
+import os
+
 import names
 import pandas as pd
+
+from app.db.session import logger
 
 
 def clean_project_file(file_path, sheet_names):
@@ -11,6 +15,7 @@ def clean_project_file(file_path, sheet_names):
     """
     data = pd.read_excel(file_path, sheet_name=sheet_names)
     if data is not None:
+        logger.info('Data read from excel file completed successfully')
         # Initialize empty pd
         projects = pd.DataFrame()
         for sheet in data:
@@ -47,6 +52,7 @@ def clean_project_file(file_path, sheet_names):
                     'Cell',
                 ]
             ]
+            logger.info('Read headers from excel file completed successfully')
 
             # Rename columns
             project_data = project_data.rename(
@@ -80,6 +86,7 @@ def clean_project_file(file_path, sheet_names):
                     'Cell': 'cell',
                 },
             )
+            logger.info('Renamed headers from excel file completed successfully')
 
             # Convert Names to Title Case
 
@@ -98,7 +105,27 @@ def clean_project_file(file_path, sheet_names):
 
             # project_data["project"] = project_data["project"].str.title()
         # convert to excel file
-        projects.to_excel('../../app/data/project_data.xlsx', index=False)
-        return projects
+        logger.info('Data Transformed  into dataframe successfully')
+        filename = f'{os.path.dirname(file_path)}/clean_project_data.xlsx'
+        projects.to_excel(filename, index=False)
+        logger.info('Data written to excel file successfully')
+        return filename
 
     # Read project data from project_data.json
+
+
+def extract_project_data(file_path, sheet_names):
+    """
+    Extract project data from project_data.json
+    :return: project data: pd.DataFrame
+    """
+    raw_data = pd.read_excel(file_path, sheet_name=sheet_names)
+    logger.info('Raw Data read from excel file completed successfully')
+    projects = pd.DataFrame()
+    for data in raw_data:
+        projects = projects.append(raw_data.get(data), ignore_index=True)
+    file_name = f'{os.path.dirname(file_path)}/project_data.xlsx'
+    projects.to_excel(file_name, index=False)
+    logger.info('Data Extraction to excel file successfully')
+
+    return file_name

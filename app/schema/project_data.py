@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 from datetime import datetime
+from typing import List
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -11,22 +13,21 @@ class ProjectData(BaseModel):
     end_date: datetime
     house_number: str | None
     created_date: datetime
-    house_number: str | None
     surveyor: str | None
-    current_weather: str | None
+    current_weather: str
     comments: str | None
     meals_pp: int
     enumerator: str | None
     total_people: int
     weight_of_wood_pile: float
-    gps_longitude: float | None
-    gps_latitude: float | None
-    gps_altitude: float | None
+    gps_longitude: float
+    gps_latitude: float
+    gps_altitude: float
     head_of_household: str | None
     improved_wood_stove: int
     improved_charcoal_stove: int
     number_of_stoves: int
-    stove_type: str | None
+    stove_type: str
     confirm_all_fuels: str
     consent_to_survey: str
 

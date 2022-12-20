@@ -1,11 +1,7 @@
 from __future__ import annotations
 
-import logging
-
-import pandas as pd
-
 from app.db.session import engine
-logging.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+from app.db.session import logger
 
 
 class InsertProjectData:
@@ -23,6 +19,7 @@ class InsertProjectData:
                 f"SELECT id FROM enumerator WHERE name = '{x}'",
             ).fetchone()[0],
         )
+        logger.info('DB_OPERATIONS: Enumerator ID fetched from database')
 
         # Drop the Enumerator column
         self.main_data = self.main_data.drop(columns=['enumerator'])
@@ -43,6 +40,8 @@ class InsertProjectData:
                 f"SELECT id FROM surveyor WHERE name = '{x}'",
             ).fetchone()[0],
         )
+
+        logger.info('DB_OPERATIONS: Surveyor ID fetched from database')
         # Drop the Surveyor column
         self.main_data = self.main_data.drop(columns=['surveyor'])
 
@@ -73,11 +72,4 @@ class InsertProjectData:
             index=False,
             chunksize=10000,
         )
-        logging.info('Project Data inserted into database')
-
-
-cook_stove_data = pd.read_excel(
-    '../../../app/data/project_data.xlsx', sheet_name='Sheet1',
-)
-insert_data = InsertProjectData(cook_stove_data)
-insert_data.insert_project_datas()
+        logger.info('Project Data inserted into database')

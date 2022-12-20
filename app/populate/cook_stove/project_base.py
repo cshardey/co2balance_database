@@ -1,20 +1,16 @@
 from __future__ import annotations
 
-import logging
-
-import clean_project_file
 import pandas as pd
 from sqlalchemy import exc
 
-import app.db.session
 from app.db.session import engine
-
-logging.basicConfig(format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+from app.db.session import logger
 
 
 class ProjectBase:
-    def __init__(self, main_data):
+    def __init__(self, main_data, path):
         self.main_data = main_data
+        self.path = path
 
     # Read main excel data from CO2Balance
     # TODO: Data will be picked up from an ftpserver
@@ -43,7 +39,7 @@ class ProjectBase:
             chunksize=10000,
         )
 
-        logging.info('enumerator data inserted into database')
+        logger.info('enumerator data inserted into database')
 
         self.insert_logger(len(enumerator_data), 'enumerator')
 
@@ -51,7 +47,7 @@ class ProjectBase:
 
     def insert_logger(self, length, tablename):
         # Log INFO of the number of rows inserted
-        logging.info('{} {} data inserted into database' ''.format(length, tablename))
+        logger.info('{} {} data inserted into database' ''.format(length, tablename))
 
     def create_region(self):
         """
@@ -79,7 +75,7 @@ class ProjectBase:
             chunksize=10000,
         )
 
-        logging.info('Region data inserted into database')
+        logger.info('Region data inserted into database')
 
         self.insert_logger(len(region_data), 'region')
 
@@ -123,7 +119,7 @@ class ProjectBase:
             chunksize=10000,
         )
 
-        logging.info('Village data inserted into database')
+        logger.info('Village data inserted into database')
 
         self.insert_logger(len(village_data), 'village')
 
@@ -135,7 +131,7 @@ class ProjectBase:
         :return: None
         """
         # Read country data from county.json into list
-        country_data = pd.read_json('../../app/data/country.json')
+        country_data = pd.read_json(f'{self.path}/country.json')
         # Create a new column called code and set it to the  first header
         # Insert country data into the database using pandas
         country_data.to_sql(
@@ -176,7 +172,7 @@ class ProjectBase:
             chunksize=10000,
         )
 
-        logging.info('Fuel type data inserted into database')
+        logger.info('Fuel type data inserted into database')
 
         self.insert_logger(len(fuel_type_data), 'fuel_type')
 
@@ -234,7 +230,7 @@ class ProjectBase:
         :return: None
         """
         # Read project data from project_data.json
-        project_data = pd.read_json('../../app/data/project_data.json')
+        project_data = pd.read_json(f'{self.path}/project_data.json')
         # Connect to country table and get the id of the country
         project_data['country_id'] = project_data['country'].apply(
             lambda x: engine.execute(
@@ -263,6 +259,7 @@ class ProjectBase:
         try:
             # Insert country data into the database
             self.insert_country()
+
             # Insert project data into the database
             self.create_project()
             # Insert enumerator data into the database
@@ -276,12 +273,5 @@ class ProjectBase:
             # Insert project surveyor data into the database
             self.insert_project_surveyor()
         except exc.SQLAlchemyError as e:
-            logging.error(e)
+            logger.error(e)
             raise e
-
-
-cook_stove_data = clean_project_file.clean_project_file(
-    file_path='../../app/data/co2balance.xlsx', sheet_names=['Day 1 Cleaned'],
-)
-kenya_cooked_stove_project = ProjectBase(cook_stove_data)
-kenya_cooked_stove_project.populate_base_data()

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 from typing import Generator
 
@@ -19,15 +20,21 @@ from app.models.region import Region
 from app.models.surveyor import Surveyor
 from app.models.village import Village
 
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+
+
 load_dotenv()
 try:
     engine = create_engine(os.getenv('DATABASE_URL'))
     Base.metadata.create_all(bind=engine)
     Session = sessionmaker(bind=engine, autoflush=False, autocommit=False)
     session = Session()
-    print('Database created and tables initialized')
+    logger.info('DB_OPERATIONS: Database created and tables initialized')
 except Exception as e:
-    print('Error: Database Initialization failed see error --> ', e)
+    logger.error('DB_OPERATIONS: Error: Database Initialization failed see error --> ', e)
 
 
 def get_db() -> Generator:
@@ -36,3 +43,10 @@ def get_db() -> Generator:
         yield db
     finally:
         db.close()
+
+
+def init_db():
+    # Drop all tables
+    Base.metadata.drop_all(bind=engine)
+    Base.metadata.create_all(bind=engine)
+    logger.info('DB_OPERATIONS: Database created and tables initialized')

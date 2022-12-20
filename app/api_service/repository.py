@@ -28,7 +28,7 @@ class ProjectDataRepository:
     ):
         """
         Get project data by  date range
-        :param comapny_name: str (Company name from authentication)
+        :param company_name: str (Company name from authentication)
         :param project_name: str ( Project name )
         :param end_date:
         :param start_date:
@@ -40,6 +40,8 @@ class ProjectDataRepository:
                 project_data.ProjectData,
             )
             .filter(
+                project.Project.name == project_name,
+                project.Project.company == comapny_name,
                 project_data.ProjectData.start_date >= start_date,
                 project_data.ProjectData.end_date <= end_date,
             ).all()
