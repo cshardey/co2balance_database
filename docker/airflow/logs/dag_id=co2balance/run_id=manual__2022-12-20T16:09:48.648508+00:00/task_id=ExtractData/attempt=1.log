@@ -1,0 +1,25 @@
+[2022-12-20T16:09:52.970+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.ExtractData manual__2022-12-20T16:09:48.648508+00:00 [queued]>
+[2022-12-20T16:09:52.983+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.ExtractData manual__2022-12-20T16:09:48.648508+00:00 [queued]>
+[2022-12-20T16:09:52.983+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T16:09:52.983+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T16:09:52.983+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T16:09:53.001+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): ExtractData> on 2022-12-20 16:09:48.648508+00:00
+[2022-12-20T16:09:53.010+0000] {standard_task_runner.py:55} INFO - Started process 7532 to run task
+[2022-12-20T16:09:53.013+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'ExtractData', 'manual__2022-12-20T16:09:48.648508+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmpez08ocq1']
+[2022-12-20T16:09:53.015+0000] {standard_task_runner.py:83} INFO - Job 70: Subtask ExtractData
+[2022-12-20T16:09:53.104+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.ExtractData manual__2022-12-20T16:09:48.648508+00:00 [running]> on host 1a27c7ed0719
+[2022-12-20T16:09:53.205+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=ExtractData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-20T16:09:48.648508+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-20T16:09:48.648508+00:00
+[2022-12-20T16:09:53.838+0000] {clean_project_file.py:121} INFO - Raw Data read from excel file completed successfully
+[2022-12-20T16:09:54.247+0000] {clean_project_file.py:127} INFO - Data Extraction to excel file successfully
+[2022-12-20T16:09:54.272+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-20T16:09:54.292+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=co2balance, task_id=ExtractData, execution_date=20221220T160948, start_date=20221220T160952, end_date=20221220T160954
+[2022-12-20T16:09:54.348+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-20T16:09:54.386+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

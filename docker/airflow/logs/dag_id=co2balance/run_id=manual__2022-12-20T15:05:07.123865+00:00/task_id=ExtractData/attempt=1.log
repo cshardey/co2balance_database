@@ -1,0 +1,44 @@
+[2022-12-20T15:05:09.603+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.ExtractData manual__2022-12-20T15:05:07.123865+00:00 [queued]>
+[2022-12-20T15:05:09.622+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.ExtractData manual__2022-12-20T15:05:07.123865+00:00 [queued]>
+[2022-12-20T15:05:09.622+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T15:05:09.622+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T15:05:09.622+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T15:05:09.677+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): ExtractData> on 2022-12-20 15:05:07.123865+00:00
+[2022-12-20T15:05:09.688+0000] {standard_task_runner.py:55} INFO - Started process 3026 to run task
+[2022-12-20T15:05:09.693+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'ExtractData', 'manual__2022-12-20T15:05:07.123865+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmpdwkopl63']
+[2022-12-20T15:05:09.696+0000] {standard_task_runner.py:83} INFO - Job 27: Subtask ExtractData
+[2022-12-20T15:05:09.883+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.ExtractData manual__2022-12-20T15:05:07.123865+00:00 [running]> on host 1a27c7ed0719
+[2022-12-20T15:05:10.016+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=ExtractData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-20T15:05:07.123865+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-20T15:05:07.123865+00:00
+[2022-12-20T15:05:10.480+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app/populate/cook_stove/clean_project_file.py", line 119, in extract_project_data
+    raw_data = pd.read_excel(file_path, sheet_name='project_data')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 395, in read_excel
+    mangle_dupe_cols=mangle_dupe_cols,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 1292, in parse
+    **kwds,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 535, in parse
+    sheet = self.get_sheet_by_name(asheetname)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_openpyxl.py", line 542, in get_sheet_by_name
+    self.raise_if_bad_sheet_by_name(name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 474, in raise_if_bad_sheet_by_name
+    raise ValueError(f"Worksheet named '{name}' not found")
+ValueError: Worksheet named 'project_data' not found
+[2022-12-20T15:05:10.496+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=co2balance, task_id=ExtractData, execution_date=20221220T150507, start_date=20221220T150509, end_date=20221220T150510
+[2022-12-20T15:05:10.512+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 27 for task ExtractData (Worksheet named 'project_data' not found; 3026)
+[2022-12-20T15:05:10.557+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-20T15:05:10.581+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

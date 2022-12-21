@@ -1,0 +1,34 @@
+[2022-12-20 09:20:11,855] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: co2balance.initialise_db manual__2022-12-20T09:20:11.211192+00:00 [queued]>
+[2022-12-20 09:20:11,872] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: co2balance.initialise_db manual__2022-12-20T09:20:11.211192+00:00 [queued]>
+[2022-12-20 09:20:11,872] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20 09:20:11,872] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-20 09:20:11,872] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20 09:20:11,894] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): initialise_db> on 2022-12-20 09:20:11.211192+00:00
+[2022-12-20 09:20:11,901] {standard_task_runner.py:52} INFO - Started process 653 to run task
+[2022-12-20 09:20:11,908] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'initialise_db', 'manual__2022-12-20T09:20:11.211192+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpih3a1xv5', '--error-file', '/tmp/tmpmcg9zduu']
+[2022-12-20 09:20:11,909] {standard_task_runner.py:80} INFO - Job 6: Subtask initialise_db
+[2022-12-20 09:20:12,041] {task_command.py:369} INFO - Running <TaskInstance: co2balance.initialise_db manual__2022-12-20T09:20:11.211192+00:00 [running]> on host 800c7fb31dfc
+[2022-12-20 09:20:12,234] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=initialise_db
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-20T09:20:11.211192+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-20T09:20:11.211192+00:00
+[2022-12-20 09:20:12,241] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-20 09:20:12,242] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python3 /home/chris/DEV/co2balance/pipeline/app/db/session.py']
+[2022-12-20 09:20:12,268] {subprocess.py:85} INFO - Output:
+[2022-12-20 09:20:12,353] {subprocess.py:92} INFO - python3: can't open file '/home/chris/DEV/co2balance/pipeline/app/db/session.py': [Errno 2] No such file or directory
+[2022-12-20 09:20:12,358] {subprocess.py:96} INFO - Command exited with return code 2
+[2022-12-20 09:20:12,417] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2022-12-20 09:20:12,423] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=co2balance, task_id=initialise_db, execution_date=20221220T092011, start_date=20221220T092011, end_date=20221220T092012
+[2022-12-20 09:20:12,453] {standard_task_runner.py:97} ERROR - Failed to execute job 6 for task initialise_db (Bash command failed. The command returned a non-zero exit code 2.; 653)
+[2022-12-20 09:20:12,487] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-12-20 09:20:12,566] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

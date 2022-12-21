@@ -1,0 +1,42 @@
+[2022-12-20T14:07:51.431+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.CleanData manual__2022-12-20T14:07:49.170397+00:00 [queued]>
+[2022-12-20T14:07:51.449+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.CleanData manual__2022-12-20T14:07:49.170397+00:00 [queued]>
+[2022-12-20T14:07:51.449+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T14:07:51.449+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T14:07:51.450+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T14:07:51.525+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): CleanData> on 2022-12-20 14:07:49.170397+00:00
+[2022-12-20T14:07:51.544+0000] {standard_task_runner.py:55} INFO - Started process 5560 to run task
+[2022-12-20T14:07:51.567+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'CleanData', 'manual__2022-12-20T14:07:49.170397+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmprb2ac60a']
+[2022-12-20T14:07:51.572+0000] {standard_task_runner.py:83} INFO - Job 7: Subtask CleanData
+[2022-12-20T14:07:51.909+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.CleanData manual__2022-12-20T14:07:49.170397+00:00 [running]> on host 980fbd331d58
+[2022-12-20T14:07:52.138+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=CleanData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-20T14:07:49.170397+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-20T14:07:49.170397+00:00
+[2022-12-20T14:07:52.141+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app/populate/cook_stove/clean_project_file.py", line 13, in clean_project_file
+    data = pd.read_excel(file_path, sheet_name=sheet_names)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 1192, in __init__
+    content_or_path=path_or_buffer, storage_options=storage_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 1071, in inspect_excel_format
+    content_or_path, "rb", storage_options=storage_options, is_text=False
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 711, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '../data/co2balance.xlsx'
+[2022-12-20T14:07:52.173+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=co2balance, task_id=CleanData, execution_date=20221220T140749, start_date=20221220T140751, end_date=20221220T140752
+[2022-12-20T14:07:52.207+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 7 for task CleanData ([Errno 2] No such file or directory: '../data/co2balance.xlsx'; 5560)
+[2022-12-20T14:07:52.231+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-20T14:07:52.279+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

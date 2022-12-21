@@ -1,0 +1,485 @@
+[2022-12-21T00:00:19.398+0000] {processor.py:153} INFO - Started process (PID=36691) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:00:19.399+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:00:19.400+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:00:19.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:00:19.401+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:00:19.425+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.031 seconds
+[2022-12-21T00:00:49.666+0000] {processor.py:153} INFO - Started process (PID=36728) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:00:49.667+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:00:49.668+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:00:49.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:00:49.670+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:00:49.698+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.037 seconds
+[2022-12-21T00:01:19.916+0000] {processor.py:153} INFO - Started process (PID=36759) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:01:19.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:01:19.919+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:01:19.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:01:19.920+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:01:19.957+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.048 seconds
+[2022-12-21T00:01:50.031+0000] {processor.py:153} INFO - Started process (PID=36790) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:01:50.032+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:01:50.032+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:01:50.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:01:50.033+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:01:50.054+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.028 seconds
+[2022-12-21T00:02:20.481+0000] {processor.py:153} INFO - Started process (PID=36821) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:02:20.482+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:02:20.482+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:02:20.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:02:20.485+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:02:20.512+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.036 seconds
+[2022-12-21T00:02:50.999+0000] {processor.py:153} INFO - Started process (PID=36851) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:02:51.000+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:02:51.001+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:02:51.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:02:51.002+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:02:51.026+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.031 seconds
+[2022-12-21T00:03:21.526+0000] {processor.py:153} INFO - Started process (PID=36877) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:03:21.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:03:21.528+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:03:21.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:03:21.529+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:03:21.552+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.029 seconds
+[2022-12-21T00:03:52.002+0000] {processor.py:153} INFO - Started process (PID=36908) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:03:52.003+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:03:52.004+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:03:52.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:03:52.006+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:03:52.030+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.032 seconds
+[2022-12-21T00:04:22.472+0000] {processor.py:153} INFO - Started process (PID=36939) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:04:22.473+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:04:22.474+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:04:22.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:04:22.475+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:04:22.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.032 seconds
+[2022-12-21T00:04:52.763+0000] {processor.py:153} INFO - Started process (PID=36970) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:04:52.764+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:04:52.765+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:04:52.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:04:52.766+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:04:52.791+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.032 seconds
+[2022-12-21T00:05:22.946+0000] {processor.py:153} INFO - Started process (PID=37001) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:05:22.947+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:05:22.948+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:05:22.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:05:22.949+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:05:22.973+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.032 seconds
+[2022-12-21T00:05:53.498+0000] {processor.py:153} INFO - Started process (PID=37032) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:05:53.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:05:53.500+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:05:53.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:05:53.502+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:05:53.536+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.046 seconds
+[2022-12-21T00:06:24.038+0000] {processor.py:153} INFO - Started process (PID=37063) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:06:24.041+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:06:24.043+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:06:24.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:06:24.048+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:06:24.079+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.052 seconds
+[2022-12-21T00:06:54.283+0000] {processor.py:153} INFO - Started process (PID=37094) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:06:54.284+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:06:54.286+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:06:54.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:06:54.289+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:06:54.321+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.045 seconds
+[2022-12-21T00:07:24.668+0000] {processor.py:153} INFO - Started process (PID=37124) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:07:24.670+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:07:24.680+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:07:24.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:07:24.684+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:07:24.745+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.112 seconds
+[2022-12-21T00:07:55.715+0000] {processor.py:153} INFO - Started process (PID=37156) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:07:55.716+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:07:55.717+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:07:55.717+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:07:55.719+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:07:55.753+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.043 seconds
+[2022-12-21T00:08:25.875+0000] {processor.py:153} INFO - Started process (PID=37187) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:08:25.881+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:08:25.883+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:08:25.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:08:25.885+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:08:25.918+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.046 seconds
+[2022-12-21T00:08:56.398+0000] {processor.py:153} INFO - Started process (PID=37224) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:08:56.399+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:08:56.400+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:08:56.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:08:56.403+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:08:56.461+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.077 seconds
+[2022-12-21T00:09:26.985+0000] {processor.py:153} INFO - Started process (PID=37255) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:09:26.987+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:09:26.988+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:09:26.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:09:26.989+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:09:27.025+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.044 seconds
+[2022-12-21T00:09:57.646+0000] {processor.py:153} INFO - Started process (PID=37292) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:09:57.647+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:09:57.649+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:09:57.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:09:57.652+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:09:57.689+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.052 seconds
+[2022-12-21T00:10:28.231+0000] {processor.py:153} INFO - Started process (PID=37323) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:10:28.232+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:10:28.233+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:10:28.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:10:28.236+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:10:28.265+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.041 seconds
+[2022-12-21T00:10:58.472+0000] {processor.py:153} INFO - Started process (PID=37354) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:10:58.473+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:10:58.474+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:10:58.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:10:58.475+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:10:58.501+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:11:29.043+0000] {processor.py:153} INFO - Started process (PID=37385) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:11:29.044+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:11:29.045+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:11:29.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:11:29.046+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:11:29.070+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.036 seconds
+[2022-12-21T00:12:00.067+0000] {processor.py:153} INFO - Started process (PID=37416) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:12:00.068+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:12:00.069+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:12:00.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:12:00.070+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:12:00.096+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.034 seconds
+[2022-12-21T00:12:30.660+0000] {processor.py:153} INFO - Started process (PID=37447) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:12:30.662+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:12:30.663+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:12:30.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:12:30.664+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:12:30.693+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.039 seconds
+[2022-12-21T00:13:01.202+0000] {processor.py:153} INFO - Started process (PID=37478) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:13:01.204+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:13:01.205+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:13:01.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:13:01.206+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:13:01.235+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.039 seconds
+[2022-12-21T00:13:31.725+0000] {processor.py:153} INFO - Started process (PID=37509) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:13:31.726+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:13:31.727+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:13:31.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:13:31.728+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:13:31.780+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.062 seconds
+[2022-12-21T00:14:46.414+0000] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:14:46.415+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:14:46.417+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:14:46.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:14:46.419+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:14:46.483+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.075 seconds
+[2022-12-21T00:15:16.911+0000] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:15:16.912+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:15:16.913+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:15:16.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:15:16.913+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:15:16.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.029 seconds
+[2022-12-21T00:15:47.480+0000] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:15:47.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:15:47.482+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:15:47.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:15:47.483+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:15:47.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.034 seconds
+[2022-12-21T00:16:18.150+0000] {processor.py:153} INFO - Started process (PID=295) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:16:18.151+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:16:18.152+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:16:18.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:16:18.153+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:16:18.175+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.029 seconds
+[2022-12-21T00:16:48.596+0000] {processor.py:153} INFO - Started process (PID=328) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:16:48.597+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:16:48.598+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:16:48.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:16:48.599+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:16:48.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.030 seconds
+[2022-12-21T00:17:19.106+0000] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:17:19.108+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:17:19.109+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:17:19.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:17:19.110+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:17:19.138+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.037 seconds
+[2022-12-21T00:17:49.749+0000] {processor.py:153} INFO - Started process (PID=388) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:17:49.751+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:17:49.752+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:17:49.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:17:49.753+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:17:49.784+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.040 seconds
+[2022-12-21T00:18:20.301+0000] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:18:20.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:18:20.305+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:18:20.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:18:20.306+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:18:20.357+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.062 seconds
+[2022-12-21T00:18:50.828+0000] {processor.py:153} INFO - Started process (PID=450) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:18:50.829+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:18:50.830+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:18:50.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:18:50.832+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:18:50.863+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.039 seconds
+[2022-12-21T00:19:21.369+0000] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:19:21.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:19:21.373+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:19:21.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:19:21.375+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:19:21.429+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.066 seconds
+[2022-12-21T00:19:51.916+0000] {processor.py:153} INFO - Started process (PID=512) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:19:51.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:19:51.918+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:19:51.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:19:51.919+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:19:51.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.029 seconds
+[2022-12-21T00:20:22.142+0000] {processor.py:153} INFO - Started process (PID=545) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:20:22.143+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:20:22.144+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:20:22.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:20:22.145+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:20:22.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.027 seconds
+[2022-12-21T00:20:52.671+0000] {processor.py:153} INFO - Started process (PID=574) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:20:52.672+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:20:52.673+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:20:52.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:20:52.675+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:20:52.714+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.048 seconds
+[2022-12-21T00:21:22.830+0000] {processor.py:153} INFO - Started process (PID=605) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:21:22.832+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:21:22.833+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:21:22.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:21:22.834+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:21:22.881+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.056 seconds
+[2022-12-21T00:21:52.951+0000] {processor.py:153} INFO - Started process (PID=636) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:21:52.954+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:21:52.955+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:21:52.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:21:52.957+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:21:52.991+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.050 seconds
+[2022-12-21T00:22:23.125+0000] {processor.py:153} INFO - Started process (PID=667) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:22:23.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:22:23.127+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:22:23.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:22:23.129+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:22:23.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.043 seconds
+[2022-12-21T00:22:53.705+0000] {processor.py:153} INFO - Started process (PID=698) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:22:53.707+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:22:53.710+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:22:53.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:22:53.712+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:22:53.750+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.050 seconds
+[2022-12-21T00:23:23.887+0000] {processor.py:153} INFO - Started process (PID=731) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:23:23.888+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:23:23.889+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:23:23.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:23:23.890+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:23:23.915+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:23:54.354+0000] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:23:54.356+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:23:54.358+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:23:54.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:23:54.360+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:23:54.398+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.049 seconds
+[2022-12-21T00:24:24.945+0000] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:24:24.948+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:24:24.949+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:24:24.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:24:24.953+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:24:24.988+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.048 seconds
+[2022-12-21T00:24:55.142+0000] {processor.py:153} INFO - Started process (PID=821) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:24:55.143+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:24:55.144+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:24:55.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:24:55.145+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:24:55.187+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.051 seconds
+[2022-12-21T00:25:26.216+0000] {processor.py:153} INFO - Started process (PID=853) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:25:26.217+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:25:26.219+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:25:26.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:25:26.221+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:25:26.287+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.079 seconds
+[2022-12-21T00:25:57.311+0000] {processor.py:153} INFO - Started process (PID=884) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:25:57.312+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:25:57.313+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:25:57.313+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:25:57.314+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:25:57.337+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.029 seconds
+[2022-12-21T00:26:27.796+0000] {processor.py:153} INFO - Started process (PID=915) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:26:27.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:26:27.799+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:26:27.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:26:27.800+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:26:27.839+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.048 seconds
+[2022-12-21T00:26:58.230+0000] {processor.py:153} INFO - Started process (PID=946) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:26:58.231+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:26:58.232+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:26:58.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:26:58.233+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:26:58.271+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.046 seconds
+[2022-12-21T00:27:28.702+0000] {processor.py:153} INFO - Started process (PID=977) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:27:28.703+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:27:28.704+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:27:28.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:27:28.705+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:27:28.728+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.031 seconds
+[2022-12-21T00:27:59.217+0000] {processor.py:153} INFO - Started process (PID=1008) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:27:59.218+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:27:59.219+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:27:59.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:27:59.221+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:27:59.246+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:28:29.357+0000] {processor.py:153} INFO - Started process (PID=1039) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:28:29.358+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:28:29.360+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:28:29.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:28:29.362+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:28:29.397+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.050 seconds
+[2022-12-21T00:28:59.869+0000] {processor.py:153} INFO - Started process (PID=1068) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:28:59.870+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:28:59.871+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:28:59.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:28:59.873+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:28:59.902+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.038 seconds
+[2022-12-21T00:29:30.404+0000] {processor.py:153} INFO - Started process (PID=1101) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:29:30.405+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:29:30.406+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:29:30.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:29:30.409+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:29:30.446+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.048 seconds
+[2022-12-21T00:30:00.523+0000] {processor.py:153} INFO - Started process (PID=1129) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:30:00.525+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:30:00.527+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:30:00.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:30:00.529+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:30:00.555+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.039 seconds
+[2022-12-21T00:30:30.618+0000] {processor.py:153} INFO - Started process (PID=1160) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:30:30.619+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:30:30.620+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:30:30.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:30:30.622+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:30:30.670+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.058 seconds
+[2022-12-21T00:31:01.018+0000] {processor.py:153} INFO - Started process (PID=1194) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:31:01.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:31:01.021+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:31:01.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:31:01.022+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:31:01.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.039 seconds
+[2022-12-21T00:31:31.131+0000] {processor.py:153} INFO - Started process (PID=1225) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:31:31.132+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:31:31.133+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:31:31.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:31:31.134+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:31:31.156+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:32:01.263+0000] {processor.py:153} INFO - Started process (PID=1256) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:32:01.264+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:32:01.265+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:32:01.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:32:01.267+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:32:01.295+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.040 seconds
+[2022-12-21T00:32:31.407+0000] {processor.py:153} INFO - Started process (PID=1287) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:32:31.408+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:32:31.409+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:32:31.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:32:31.413+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:32:31.442+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.042 seconds
+[2022-12-21T00:33:01.609+0000] {processor.py:153} INFO - Started process (PID=1318) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:33:01.610+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:33:01.611+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:33:01.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:33:01.612+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:33:01.635+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.031 seconds
+[2022-12-21T00:33:32.123+0000] {processor.py:153} INFO - Started process (PID=1349) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:33:32.124+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:33:32.124+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:33:32.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:33:32.126+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:33:32.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:34:02.315+0000] {processor.py:153} INFO - Started process (PID=1380) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:34:02.316+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:34:02.317+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:34:02.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:34:02.320+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:34:02.344+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.034 seconds
+[2022-12-21T00:34:32.837+0000] {processor.py:153} INFO - Started process (PID=1411) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:34:32.838+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:34:32.839+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:34:32.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:34:32.840+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:34:32.902+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.069 seconds
+[2022-12-21T00:35:03.000+0000] {processor.py:153} INFO - Started process (PID=1444) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:35:03.001+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:35:03.002+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:35:03.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:35:03.003+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:35:03.021+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.024 seconds
+[2022-12-21T00:35:33.503+0000] {processor.py:153} INFO - Started process (PID=1473) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:35:33.505+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:35:33.506+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:35:33.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:35:33.508+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:35:33.533+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.035 seconds
+[2022-12-21T00:36:04.099+0000] {processor.py:153} INFO - Started process (PID=1504) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:36:04.100+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:36:04.101+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:36:04.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:36:04.103+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:36:04.127+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:36:34.626+0000] {processor.py:153} INFO - Started process (PID=1535) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:36:34.627+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:36:34.628+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:36:34.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:36:34.629+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:36:34.658+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.036 seconds
+[2022-12-21T00:37:05.145+0000] {processor.py:153} INFO - Started process (PID=1566) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:37:05.146+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:37:05.147+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:37:05.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:37:05.149+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:37:05.179+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.038 seconds
+[2022-12-21T00:37:35.691+0000] {processor.py:153} INFO - Started process (PID=1597) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:37:35.692+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:37:35.693+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:37:35.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:37:35.694+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:37:35.720+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.034 seconds
+[2022-12-21T00:38:06.209+0000] {processor.py:153} INFO - Started process (PID=1628) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:38:06.210+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:38:06.211+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:38:06.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:38:06.212+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:38:06.240+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.037 seconds
+[2022-12-21T00:38:36.705+0000] {processor.py:153} INFO - Started process (PID=1659) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:38:36.706+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:38:36.707+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:38:36.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:38:36.708+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:38:36.737+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.038 seconds
+[2022-12-21T00:39:07.282+0000] {processor.py:153} INFO - Started process (PID=1690) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:39:07.283+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:39:07.284+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:39:07.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:39:07.285+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:39:07.321+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.044 seconds
+[2022-12-21T00:39:37.822+0000] {processor.py:153} INFO - Started process (PID=1721) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:39:37.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:39:37.824+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:39:37.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:39:37.826+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:39:37.855+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.039 seconds
+[2022-12-21T00:40:08.449+0000] {processor.py:153} INFO - Started process (PID=1752) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:40:08.450+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:40:08.456+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:40:08.451+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:40:08.457+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:40:08.486+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.042 seconds
+[2022-12-21T00:40:38.869+0000] {processor.py:153} INFO - Started process (PID=1783) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:40:38.870+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:40:38.872+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:40:38.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:40:38.873+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:40:38.897+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.032 seconds
+[2022-12-21T00:41:09.438+0000] {processor.py:153} INFO - Started process (PID=1813) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:41:09.456+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:41:09.457+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:41:09.457+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:41:09.459+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:41:09.510+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.079 seconds
+[2022-12-21T00:41:39.724+0000] {processor.py:153} INFO - Started process (PID=1839) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:41:39.725+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:41:39.726+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:41:39.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:41:39.728+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:41:39.757+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.040 seconds
+[2022-12-21T00:42:10.248+0000] {processor.py:153} INFO - Started process (PID=1870) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:42:10.250+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:42:10.252+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:42:10.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:42:10.254+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:42:10.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.053 seconds
+[2022-12-21T00:42:41.266+0000] {processor.py:153} INFO - Started process (PID=1901) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:42:41.267+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:42:41.268+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:42:41.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:42:41.269+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:42:41.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.035 seconds
+[2022-12-21T00:43:11.722+0000] {processor.py:153} INFO - Started process (PID=1932) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:43:11.723+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:43:11.724+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:43:11.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:43:11.726+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:43:11.749+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.032 seconds
+[2022-12-21T00:43:42.184+0000] {processor.py:153} INFO - Started process (PID=1963) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:43:42.185+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:43:42.186+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:43:42.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:43:42.188+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:43:42.215+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.035 seconds
+[2022-12-21T00:44:12.711+0000] {processor.py:153} INFO - Started process (PID=1994) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:44:12.713+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:44:12.714+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:44:12.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:44:12.717+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:44:12.745+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.040 seconds
+[2022-12-21T00:44:43.163+0000] {processor.py:153} INFO - Started process (PID=2025) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:44:43.164+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:44:43.165+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:44:43.164+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:44:43.166+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:44:43.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.041 seconds
+[2022-12-21T00:45:13.302+0000] {processor.py:153} INFO - Started process (PID=2056) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:45:13.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:45:13.305+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:45:13.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:45:13.307+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:45:13.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.036 seconds
+[2022-12-21T00:45:43.404+0000] {processor.py:153} INFO - Started process (PID=2087) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:45:43.405+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:45:43.406+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:45:43.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:45:43.407+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:45:43.438+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.038 seconds
+[2022-12-21T00:46:13.932+0000] {processor.py:153} INFO - Started process (PID=2118) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:46:13.933+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:46:13.934+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:46:13.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:46:13.936+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:46:13.972+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.043 seconds
+[2022-12-21T00:46:44.480+0000] {processor.py:153} INFO - Started process (PID=2149) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:46:44.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:46:44.482+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:46:44.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:46:44.484+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:46:44.507+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.033 seconds
+[2022-12-21T00:47:14.938+0000] {processor.py:153} INFO - Started process (PID=2180) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:47:14.939+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:47:14.940+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:47:14.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:47:14.941+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:47:14.966+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.031 seconds
+[2022-12-21T00:47:45.065+0000] {processor.py:153} INFO - Started process (PID=2211) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:47:45.067+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:47:45.068+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:47:45.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:47:45.069+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:47:45.104+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.045 seconds
+[2022-12-21T00:48:15.282+0000] {processor.py:153} INFO - Started process (PID=2242) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:48:15.283+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:48:15.285+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:48:15.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:48:15.287+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:48:15.328+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.053 seconds
+[2022-12-21T00:48:45.579+0000] {processor.py:153} INFO - Started process (PID=2275) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:48:45.582+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:48:45.584+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:48:45.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:48:45.586+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:48:45.617+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.049 seconds
+[2022-12-21T00:49:15.686+0000] {processor.py:153} INFO - Started process (PID=2306) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:49:15.687+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:49:15.688+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:49:15.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:49:15.689+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:49:15.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.029 seconds
+[2022-12-21T00:49:46.185+0000] {processor.py:153} INFO - Started process (PID=2335) to work on /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:49:46.186+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx for tasks to queue
+[2022-12-21T00:49:46.187+0000] {logging_mixin.py:137} INFO - [2022-12-21T00:49:46.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:49:46.188+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx
+[2022-12-21T00:49:46.212+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/app/data/Bugesera ICS Baseline KS 2022 07 - v1.xlsx took 0.031 seconds

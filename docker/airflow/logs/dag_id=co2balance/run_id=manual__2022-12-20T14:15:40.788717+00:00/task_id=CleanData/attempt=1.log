@@ -1,0 +1,42 @@
+[2022-12-20T14:15:42.751+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.CleanData manual__2022-12-20T14:15:40.788717+00:00 [queued]>
+[2022-12-20T14:15:42.782+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.CleanData manual__2022-12-20T14:15:40.788717+00:00 [queued]>
+[2022-12-20T14:15:42.783+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T14:15:42.783+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T14:15:42.783+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T14:15:42.825+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): CleanData> on 2022-12-20 14:15:40.788717+00:00
+[2022-12-20T14:15:42.838+0000] {standard_task_runner.py:55} INFO - Started process 6072 to run task
+[2022-12-20T14:15:42.843+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'CleanData', 'manual__2022-12-20T14:15:40.788717+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmphfiu7smc']
+[2022-12-20T14:15:42.845+0000] {standard_task_runner.py:83} INFO - Job 13: Subtask CleanData
+[2022-12-20T14:15:43.144+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.CleanData manual__2022-12-20T14:15:40.788717+00:00 [running]> on host 980fbd331d58
+[2022-12-20T14:15:43.402+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=CleanData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-20T14:15:40.788717+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-20T14:15:40.788717+00:00
+[2022-12-20T14:15:43.408+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/app/populate/cook_stove/clean_project_file.py", line 13, in clean_project_file
+    data = pd.read_excel(file_path, sheet_name=sheet_names)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 1233, in __init__
+    self._reader = self._engines[engine](self._io, storage_options=storage_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_openpyxl.py", line 521, in __init__
+    import_optional_dependency("openpyxl")
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/_optional.py", line 118, in import_optional_dependency
+    raise ImportError(msg) from None
+ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+[2022-12-20T14:15:43.442+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=co2balance, task_id=CleanData, execution_date=20221220T141540, start_date=20221220T141542, end_date=20221220T141543
+[2022-12-20T14:15:43.475+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 13 for task CleanData (Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.; 6072)
+[2022-12-20T14:15:43.515+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-20T14:15:43.549+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

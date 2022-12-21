@@ -1,0 +1,24 @@
+[2022-12-20T14:07:51.452+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.InitialiseDB manual__2022-12-20T14:07:49.170397+00:00 [queued]>
+[2022-12-20T14:07:51.521+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.InitialiseDB manual__2022-12-20T14:07:49.170397+00:00 [queued]>
+[2022-12-20T14:07:51.522+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T14:07:51.522+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T14:07:51.522+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T14:07:51.600+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): InitialiseDB> on 2022-12-20 14:07:49.170397+00:00
+[2022-12-20T14:07:51.632+0000] {standard_task_runner.py:55} INFO - Started process 5561 to run task
+[2022-12-20T14:07:51.640+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'InitialiseDB', 'manual__2022-12-20T14:07:49.170397+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmpv5q4dte1']
+[2022-12-20T14:07:51.653+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask InitialiseDB
+[2022-12-20T14:07:51.922+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.InitialiseDB manual__2022-12-20T14:07:49.170397+00:00 [running]> on host 980fbd331d58
+[2022-12-20T14:07:52.136+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=InitialiseDB
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-20T14:07:49.170397+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-20T14:07:49.170397+00:00
+[2022-12-20T14:07:52.149+0000] {session.py:50} INFO - DB_OPERATIONS: Database created and tables initialized
+[2022-12-20T14:07:52.150+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-20T14:07:52.169+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=co2balance, task_id=InitialiseDB, execution_date=20221220T140749, start_date=20221220T140751, end_date=20221220T140752
+[2022-12-20T14:07:52.231+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-20T14:07:52.301+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
