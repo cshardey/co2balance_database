@@ -83,4 +83,5 @@ with dag:
         python_callable=load_project_data,
     )
 
+
 initialise_db >> extract_data >> transform_data_dag >> load_project_base_dag >> load_project_data_dag

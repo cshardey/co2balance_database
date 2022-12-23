@@ -1,0 +1,26 @@
+[2022-12-22T13:56:08.125+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.LoadProjectData manual__2022-12-22T13:55:51.696582+00:00 [queued]>
+[2022-12-22T13:56:08.146+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.LoadProjectData manual__2022-12-22T13:55:51.696582+00:00 [queued]>
+[2022-12-22T13:56:08.146+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-22T13:56:08.146+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-22T13:56:08.146+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-22T13:56:08.178+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): LoadProjectData> on 2022-12-22 13:55:51.696582+00:00
+[2022-12-22T13:56:08.189+0000] {standard_task_runner.py:55} INFO - Started process 12419 to run task
+[2022-12-22T13:56:08.193+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'LoadProjectData', 'manual__2022-12-22T13:55:51.696582+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmpv_v83m4j']
+[2022-12-22T13:56:08.196+0000] {standard_task_runner.py:83} INFO - Job 120: Subtask LoadProjectData
+[2022-12-22T13:56:08.340+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.LoadProjectData manual__2022-12-22T13:55:51.696582+00:00 [running]> on host 1a27c7ed0719
+[2022-12-22T13:56:08.506+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=LoadProjectData
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-22T13:55:51.696582+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-22T13:55:51.696582+00:00
+[2022-12-22T13:56:09.212+0000] {insert_project_data.py:22} INFO - DB_OPERATIONS: Enumerator ID fetched from database
+[2022-12-22T13:56:09.410+0000] {insert_project_data.py:44} INFO - DB_OPERATIONS: Surveyor ID fetched from database
+[2022-12-22T13:56:09.527+0000] {insert_project_data.py:75} INFO - Project Data inserted into database
+[2022-12-22T13:56:09.527+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-22T13:56:09.547+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=co2balance, task_id=LoadProjectData, execution_date=20221222T135551, start_date=20221222T135608, end_date=20221222T135609
+[2022-12-22T13:56:09.582+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-22T13:56:09.636+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

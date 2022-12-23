@@ -1,0 +1,33 @@
+[2022-12-22T11:07:08.169+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.LoadProjectBase manual__2022-12-22T11:06:56.090288+00:00 [queued]>
+[2022-12-22T11:07:08.181+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: co2balance.LoadProjectBase manual__2022-12-22T11:06:56.090288+00:00 [queued]>
+[2022-12-22T11:07:08.181+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-22T11:07:08.182+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-22T11:07:08.182+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-22T11:07:08.201+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): LoadProjectBase> on 2022-12-22 11:06:56.090288+00:00
+[2022-12-22T11:07:08.209+0000] {standard_task_runner.py:55} INFO - Started process 3999 to run task
+[2022-12-22T11:07:08.213+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'co2balance', 'LoadProjectBase', 'manual__2022-12-22T11:06:56.090288+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/co2balance.py', '--cfg-path', '/tmp/tmp9en5ujvl']
+[2022-12-22T11:07:08.215+0000] {standard_task_runner.py:83} INFO - Job 89: Subtask LoadProjectBase
+[2022-12-22T11:07:08.310+0000] {task_command.py:389} INFO - Running <TaskInstance: co2balance.LoadProjectBase manual__2022-12-22T11:06:56.090288+00:00 [running]> on host 1a27c7ed0719
+[2022-12-22T11:07:08.459+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=CO2balance
+AIRFLOW_CTX_DAG_ID=co2balance
+AIRFLOW_CTX_TASK_ID=LoadProjectBase
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-22T11:06:56.090288+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-22T11:06:56.090288+00:00
+[2022-12-22T11:07:08.924+0000] {logging_mixin.py:137} INFO - Country data inserted into database
+[2022-12-22T11:07:08.961+0000] {logging_mixin.py:137} INFO - Project data inserted into database
+[2022-12-22T11:07:08.973+0000] {project_base.py:42} INFO - enumerator data inserted into database
+[2022-12-22T11:07:08.974+0000] {project_base.py:50} INFO - 84 enumerator data inserted into database
+[2022-12-22T11:07:08.983+0000] {project_base.py:78} INFO - Region data inserted into database
+[2022-12-22T11:07:08.983+0000] {project_base.py:50} INFO - 2 region data inserted into database
+[2022-12-22T11:07:09.014+0000] {project_base.py:122} INFO - Village data inserted into database
+[2022-12-22T11:07:09.014+0000] {project_base.py:50} INFO - 16 village data inserted into database
+[2022-12-22T11:07:09.026+0000] {project_base.py:175} INFO - Fuel type data inserted into database
+[2022-12-22T11:07:09.027+0000] {project_base.py:50} INFO - 4 fuel_type data inserted into database
+[2022-12-22T11:07:09.173+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-22T11:07:09.210+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=co2balance, task_id=LoadProjectBase, execution_date=20221222T110656, start_date=20221222T110708, end_date=20221222T110709
+[2022-12-22T11:07:09.267+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-22T11:07:09.354+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
