@@ -19,6 +19,10 @@ from app.models.project_photos import ProjectPhotos
 from app.models.region import Region
 from app.models.surveyor import Surveyor
 from app.models.village import Village
+from app.models.district import District
+from app.models.sector import Sector
+from app.models.cell import Cell
+
 
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
