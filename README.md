@@ -9,9 +9,28 @@ First ETL step for creating data source for data pipeline
 
 
 ## Deployment
+1. Create a .env file in the db folder with the following variables:
+```
+DATABASE_URL=postgresql://<username>:<password>@<host>:<port>/<database>
+```
 
+2. Create a .env file in the api_service folder with the following variables:
+Generate a secret key for the JWT token
+```
+JWT_SECRET_KEY
+JWT_REFRESH_SECRET_KEY
+```
 
+3. RUN the docker containers in the docker folder. Each docker  service  is located in a separate folder. The docker-compose.yml file is used to run the containers. The docker-compose.yml file is located in the docker folder.
 
+4. To access the various services, the following ports are used:
+```
+Airflow: 8080
+Postgres: 5432
+FastAPI: 8000
+Monitoring Service: 3000
+Resumable Image Upload Service: 1080
+```
 
 
 
@@ -26,11 +45,8 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
+ - CO2 Balance Team
+ - Dr Elisa Covato
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
